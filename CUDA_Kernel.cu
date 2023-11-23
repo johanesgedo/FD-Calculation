@@ -41,7 +41,7 @@ __device__ float Leapfrog_time[N];
 __device__ float TVD_time[N];
 
 
-// Discontinuous Galerkin method to solve 3D acoustic wave equation using OCCA algorithm
+// Discontinuous Galerkin method to solve 3D acoustic wave equation using OCCA
 __global__ void Discontinuous_Galerkin_3D_Solver(
     int nx, float dx,
     int ny, float dy,
