@@ -52,17 +52,9 @@ def Plot_Elapsed_Time_Data3(x, data_list, labels=(), colors=(), linestyles=()):
     for i, File_Name in enumerate(data_list):
         data = Load_Data(File_Name)
         x_values = np.arange(1, len(data) + 1)
-
-        # Fitting kurva ke data menggunakan fungsi eksponensial
         popt, _ = curve_fit(exponential_func, x_values, data)
-
-        # Membuat array nilai y untuk kurva hasil fitting
         y_fit = exponential_func(x_values, *popt)
-
-        # Plot data
         plt.plot(x_values, data, label=labels[i], color=colors[i], linestyle=linestyles[i], marker='o')
-
-        # Plot kurva hasil fitting
         plt.plot(x_values, y_fit, linestyle='-', color='red')
 
     plt.title('Elapsed Time Modeling')
