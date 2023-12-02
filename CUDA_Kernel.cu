@@ -2567,7 +2567,7 @@ int main(int argc, char **argv) {
     cudaEventCreate(&stop5);
     cudaEventRecord(start5);
 
-    ADI_3D_Solver<<<gridSize2, blockSize2>>>(nx, dx, ny, dy, nz, dz, dt, d_v, d_pn_Sigma, d_pp_Sigma);
+    Sigma_3D_Solver<<<gridSize2, blockSize2>>>(nx, dx, ny, dy, nz, dz, dt, d_v, d_pn_Sigma, d_pp_Sigma);
     checkCUDAError("Sigma Kernel launch");
 
     cudaEventRecord(stop5);
