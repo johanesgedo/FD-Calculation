@@ -1,0 +1,107 @@
+#! bin/bash
+
+rm -f CUDA_2DKernel CUDA_3DKernel CUDA_Test \
+      CUDA_2D_Kernel_Upgrade CUDA_3DKernel_Upgrade \
+	GalerkinTime_2D_data.txt \
+		GalerkinTime_3D_data.txt \
+		GalerkinResults_2D_data.bin \
+		GalerkinResults_3D_data.bin \
+		GalerkinOptimizedResults_3D_data.bin \
+		GalerkinOptimizedResults_2D_data.bin \
+		GalerkinOptimizedTime_3D_data.txt \
+		GalerkinOptimizedTime_2D_data.txt \
+	LeapfrogTime_2D_data.txt \
+		LeapfrogTime_3D_data.txt \
+		LeapfrogResults_2D_data.bin \
+		LeapfrogResults_3D_data.bin \
+		LeapfrogResults_3D_data.txt \
+		LeapfrogOptimizedTime_2D_data.txt \
+		LeapfrogOptimizedTime_3D_data.txt \
+		LeapfrogOptimizedResults_3D_data.bin \
+		LeapfrogOptimizedResults_2D_data.bin \
+		LeapfrogOptimizedResults_3D_data.txt \
+		LeapfrogMultiGPUTime_3D_data.txt \
+		LeapfrogMultiGPUResults_3D_data.bin \
+		LeapfrogMultiGPUResults_3D_data.txt \
+		LeapfrogMultiGPUOCCATime_3D_data.txt \
+		LeapfrogMultiGPUOCCAResults_3D_data.bin \
+		LeapfrogMultiGPUOCCAResults_3D_data.txt \
+		Leapfrog3DSharedMemoryTime_3D_data.txt \
+		LeapfrogWarpLevelTime_3D_data.txt \
+		LeapfrogWarpLevelOCCATime_3D_data.txt \
+	CrankNicolsonTime_2D_data.txt \
+		CrankNicolsonTime_3D_data.txt \
+		CrankNicolsonResults_2D_data.bin \
+		CrankNicolsonResults_3D_data.bin \
+		CrankNicolsonOptimizedResults_2D_data.bin \
+		CrankNicolsonOptimizedResults_3D_data.bin \
+		CrankNicolsonOptimizedTime_2D_data.txt \
+		CrankNicolsonOptimizedTime_3D_data.txt \
+	ADITime_2D_data.txt \
+		ADITime_3D_data.txt \
+		ADIResults_2D_data.bin \
+		ADIResults_3D_data.bin \
+		ADIOptimizedResults_2D_data.bin \
+		ADIOptimizedResults_3D_data.bin \
+		ADIOptimizedTime_2D_data.txt \
+		ADIOptimizedTime_3D_data.txt \
+	SigmaTime_2D_data.txt \
+		SigmaTime_3D_data.txt \
+		SigmaResults_2D_data.bin \
+		SigmaResults_3D_data.bin \
+		SigmaOptimizedResults_2D_data.bin \
+		SigmaOptimizedResults_3D_data.bin \
+		SigmaOptimizedTime_2D_data.txt \
+		SigmaOptimizedTime_3D_data.txt \
+	LaxWendroffTime_2D_data.txt \
+		LaxWendroffTime_3D_data.txt \
+		LaxWendroffResults_2D_data.bin \
+		LaxWendroffResults_3D_data.bin \
+		LaxWendroffOptimizedResults_2D_data.bin \
+		LaxWendroffOptimizedResults_3D_data.bin \
+		LaxWendroffOptimizedTime_2D_data.txt \
+		LaxWendroffOptimizedTime_3D_data.txt \
+	FractionalStepTime_2D_data.txt \
+		FractionalStepTime_3D_data.txt \
+		FractionalStepResults_2D_data.bin \
+		FractionalStepResults_3D_data.bin \
+		FractionalStepOptimizedResults_2D_data.bin \
+		FractionalStepOptimizedResults_3D_data.bin \
+		FractionalStepOptimizedTime_2D_data.txt \
+		FractionalStepOptimizedTime_3D_data.txt \
+	MacCormackTime_2D_data.txt \
+		MacCormackTime_3D_data.txt \
+		MacCormackResults_2D_data.bin \
+		MacCormackResults_3D_data.bin \
+		MacCormackOptimizedResults_2D_data.bin \
+		MacCormackOptimizedResults_3D_data.bin \
+		MacCormackOptimizedTime_2D_data.txt \
+		MacCormackOptimizedTime_3D_data.txt \
+	TVDTime_2D_data.txt \
+		TVDTime_3D_data.txt \
+		TVDResults_2D_data.bin \
+		TVDResults_3D_data.bin \
+		TVDOptimizedResults_2D_data.bin \
+		TVDOptimizedResults_3D_data.bin \
+		TVDOptimizedTime_2D_data.txt \
+		TVDOptimizedTime_3D_data.txt \
+	PSORTime_2D_data.txt \
+		PSORTime_3D_data.txt \
+		PSORResults_2D_data.bin \
+		PSORResults_3D_data.bin \
+		PSOROptimizedResults_2D_data.bin \
+		PSOROptimizedResults_3D_data.bin \
+		PSOROptimizedTime_2D_data.txt \
+		PSOROptimizedTime_3D_data.txt \
+	FVSTime_2D_data.txt \
+		FVSTime_3D_data.txt \
+		FVSResults_2D_data.bin \
+		FVSResults_3D_data.bin \
+		FVSOptimizedResults_2D_data.bin \
+		FVSOptimizedResults_3D_data.bin \
+		FVSOptimizedTime_2D_data.txt \
+		FVSOptimizedTime_3D_data.txt
+
+
+
+
