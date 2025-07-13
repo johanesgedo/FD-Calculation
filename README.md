@@ -1,5 +1,5 @@
 # FD-Calculation
-Finite difference calculation to solve 2D and 3D partial differential equation in space-time domain
+Finite difference calculation to solve 2D and 3D wave equation in space-time domain
 
 I run these codes on WSL Ubuntu 22.04 with CUDA and Anaconda environments.
 Instruction for using the codes:
